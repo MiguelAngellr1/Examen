@@ -1,0 +1,283 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f1e5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header .logo {
+    max-width: 30%; /* Reducir el tamaño del logo */
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 75%; 
+    height: auto;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 40px;
+}
+
+.location {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilo de los botones */
+.location-button {
+    display: inline-block;
+    padding: 5px 30px;
+    background-color: #f5f1e5;
+    color: #3a763e;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #3a763e; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.location-button:hover {
+    background-color: #3a763e; 
+    color: #f5f1e5; 
+}
+
+/* Estilo para el texto */
+.location p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .locations {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    header .logo {
+        max-width: 50%; 
+    }
+}
+
+.images {
+    display: flex;
+    justify-content: space-between; 
+    width: 60%; 
+    margin-top: 40px; 
+}
+
+.image {
+    flex: 1; 
+    text-align: center; 
+}
+
+.left-image img {
+    width: 203px; 
+    height: 77px; 
+    object-fit: contain; 
+}
+
+.right-image img {
+    width: 123px; 
+    height: 123px; 
+    object-fit: contain; 
+}
+
+.address {
+    margin-top: 10px; 
+    font-size: 0.9rem;
+    color: #555; 
+    text-align: center;
+}
+
+.slogan {
+    margin-top: 10px; 
+    font-size: 1.2rem;
+    color: #000000; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.centered-image img {
+    width: 375.12px; 
+    height: 100px; 
+    object-fit: cover; 
+}
+
+/*Texto despues de Titanic xd*/
+.text-content {
+    max-width: 1000px; 
+    margin: 20px auto; 
+    text-align: left; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+    color: #333; 
+}
+
+.text-content h2 {
+    text-align: center; 
+    font-size: 2rem; 
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    margin-bottom: 20px; 
+}
+
+.press-list {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: center; 
+}
+
+.press-list li {
+    color: green; 
+    font-weight: bold; 
+    margin: 10px 0; 
+}
+
+.button-container {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.green-button {
+    background-color: green; 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.green-button:hover {
+    background-color: darkgreen;
+}
+
+.video-credits {
+    text-align: left;    
+    margin-top: 10px;    
+    font-size: 0.9rem;  
+    color: #000000;      
+}
+
+.custom-image-container {
+    display: flex; 
+    justify-content: center; 
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.custom-image {
+    width: 489px; 
+    height: 324px; 
+    object-fit: cover; 
+    margin: 0 10px; 
+}
+
+
+.social-icons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+.icon {
+    margin: 0 15px;
+    text-decoration: none; 
+}
+
+.icon img {
+    width: 40px;
+    height: auto; 
+    transition: transform 0.3s; 
+}
+
+.icon:hover img {
+    transform: scale(1.1); 
+}
+
+/*DESPUES DE ICONOS*/
+
+.redirect-text {
+    text-align: center; 
+    margin-top: 10px; 
+    font-size: 14px; 
+    font-weight: bold; 
+}
+
+.redirect-text a {
+    color: #007BFF; 
+    text-decoration: underline; 
+}
+
+.redirect-text a:hover {
+    color: #0056b3; 
+}
+
+
+/*GALLERY IMG 3X3*/
+.miguel-image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.miguel-image-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin-bottom: 30px; 
+}
+
+.miguel-image-row img {
+    width: 200px; 
+    height: auto;
+    margin: 10px; 
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px; 
+    margin-bottom: 80px; 
+}
+
+.address a {
+    text-decoration: none;
+}
+
+.locations a {
+    text-decoration: none; 
+}
